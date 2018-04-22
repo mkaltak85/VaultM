@@ -44,19 +44,13 @@ TFT to Arduino
 
 Usage
 -----------------------------
-First the password vault has to be unlocked by scanning the 
-key card with the ID defined in "VaultKey". 
-This can be a Mifare UL or Mifare 1K card. 
+* Password vault is unlocked by scanning the key card with the ID defined in "VaultKey". This can be a Mifare UL or Mifare 1K card. 
+* Select password by pressing yellow button. Confirm selection with black button or abort action with the red button. 
+* Scan key card containing the right account info (account name+password). 
 
-Second, the password one wants to display has to be selected 
-with the Yellow button. The selection is confirmed with the 
-Black button or the process is aborted with the Red button. 
-
-Third, the key card is scanned containing the right account 
-info (account name+password). 
-
-To access the sector on the Mifare card Key A defined by 
-SectorKey is used. 
+Notes
+------------------------------
+To access the sector on the Mifare card Key A defined as "SectorKey" is used. 
 
 It is assumed that the account information (account name + password)
 is stored on the first block in every sector. 
