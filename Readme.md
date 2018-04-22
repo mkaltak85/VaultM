@@ -14,32 +14,32 @@ Schematic
 -----------------------------
 Connect the parts as follows: 
 
-MFRC522       Arduino
-  MOSI    ->  MOSI
-  MISO    ->  MISO
-  SCK     ->  SCK 
-  3.3V    ->  3.3V
-  GND     ->  GND
-  SDA     ->  12 
-  RST     ->  11 
+MFRC522 to Arduino
+  * MOSI    ->  MOSI
+  * MISO    ->  MISO
+  * SCK     ->  SCK
+  * 3.3V    ->  3.3V
+  * GND     ->  GND
+  * SDA     ->  12 
+  * RST     ->  11 
 
-TFT           Arduino
-  LED     ->  1K Ohm -> 3.3V
-  SCK     ->  SCK
-  SDA     ->  MOSI
-  A0/DC   ->  6
-  RST     ->  7 
-  CS      ->  8
-  GND     ->  GND
-  VCC     ->  3.3V
-
+TFT to Arduino
+  * LED     ->  1K Ohm -> 3.3V
+  * SCK     ->  SCK
+  * SDA     ->  MOSI
+  * A0/DC   ->  6
+  * RST     ->  7 
+  * CS      ->  8
+  * GND     ->  GND
+  * VCC     ->  3.3V
+  
 3 buttons: 
-  RED+    ->  4
-  RED-    ->  GND
-  YELLOW+ ->  3
-  YELLOW- ->  GND
-  BLACK+  ->  2
-  BLACK-  ->  GND
+  * RED+    ->  4
+  * RED-    ->  GND
+  * YELLOW+ ->  3
+  * YELLOW- ->  GND
+  * BLACK+  ->  2
+  * BLACK-  ->  GND
 
 Usage
 -----------------------------
